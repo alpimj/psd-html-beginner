@@ -8,14 +8,34 @@ body {
 #navigation{
 	height: 100px;
 	width: 960px;
+	border-color: blue;
+}
+#navigation > a > img{
+	float: left;
 }
 #navigation > #menu1{
 	height: 12px;
-	margin-right: 0px;
+	text-align: right;
 }
-#navigation > #menu2 > a > img{
-	float: left;
+ #navigation > #menu1 > a{
+ 	text-decoration: none;
+ 	color: black;
+}
+#navigation > #menu2{
+	text-align: right;
+	padding-top: 25px;
 }
 #navigation > #menu2 > a  {
 	text-decoration: none;
+	color: #fe9b00;
+	margin: 0px 40px;
+	margin-right: 0px;
+
+}
+#wrap > #line{
+	background-color: #c0c0c0;
+	height: 2px;
+	width: 960px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
