@@ -1,0 +1,21 @@
+body {
+	background: #f4f4f4;
+}
+#wrap{
+	margin: auto;
+	width: 960px;
+}
+#navigation{
+	height: 100px;
+	width: 960px;
+}
+#navigation > #menu1{
+	height: 12px;
+	margin-right: 0px;
+}
+#navigation > #menu2 > a > img{
+	float: left;
+}
+#navigation > #menu2 > a  {
+	text-decoration: none;
+}
