@@ -1,5 +1,6 @@
 body {
 	background: #f4f4f4;
+	font-family: Arial;
 }
 #wrap{
 	margin: auto;
@@ -39,3 +40,80 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#wrap > #bodyContent {
+	width: 960px;
+	height: 225px;
+}
+#wrap > #bodyContent > .bodyContents{
+	float: left;
+}
+#wrap > #bodyContent > #contentAboutUs {
+	width: 283px;
+	height: auto;
+	margin: left;
+	margin-right: 55px;
+	font-size: 12px;
+}
+#wrap > #bodyContent > #contentOurBenefits {
+	width: 283px;
+	height: auto;
+	margin: auto;
+	margin-right: 55px;
+	font-size: 12px;
+}
+#wrap > #bodyContent > #contentOurBenefits > ul > li{
+	list-style-type: none;
+}
+#wrap > #bodyContent > #contentOurBenefits > ul {
+	list-style-image: url('checkButton.png');
+}
+#wrap > #bodyContent > #contentTestimonials {
+	width: 260px;
+	height: auto;
+	margin: right;
+	margin-right: 0px;
+	font-size: 12px;
+}
+#wrap > #bodyContent > #contentAboutUs > h1 {
+	margin-bottom: 0px;
+	font-size: 13px;
+	word-spacing: 5px;
+}
+#wrap > #bodyContent > #contentAboutUs > #contentLine{
+	width: auto;
+	height: 6px;
+	background-color: black;
+	margin-bottom: 18px;
+	margin-top: 12px;
+}
+
+#wrap > #bodyContent > #contentOurBenefits > h1 {
+	margin-bottom: 0px;
+	font-size: 13px;
+	word-spacing: 5px;
+
+}
+#wrap > #bodyContent > #contentOurBenefits > #contentLine{
+	width: auto;
+	height: 6px;
+	background-color: black;
+	margin-bottom: 18px;
+	margin-top: 12px;
+}
+
+#wrap > #bodyContent > #contentTestimonials > h1 {
+	margin-bottom: 0px;
+	font-size: 13px;
+	word-spacing: 5px;
+
+}
+#wrap > #bodyContent > #contentTestimonials > #contentLine{
+	width: auto;
+	height: 6px;
+	background-color: black;
+	margin-bottom: 18px;
+	margin-top: 12px;
+}
+#wrap > #portfolio {
+	width: 960px;
+} 
